@@ -4,6 +4,7 @@ members = [
     "01_stack_heap",
     "02_concepts",
     "03_grammar",
+    "04_httpie",
 ]
 
 resolver = "2"
