@@ -1,0 +1,18 @@
+[package]
+name = "stack_heap"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "error"
+path = "src/error.rs"
+
+[[bin]]
+name = "pointer"
+path = "src/pointer.rs"
+
+[[bin]]
+name = "string"
+path = "src/string.rs"
+
+[dependencies]
