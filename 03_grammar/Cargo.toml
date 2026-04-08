@@ -1,0 +1,28 @@
+[package]
+name = "grammar"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "event"
+path = "src/event.rs"
+
+[[bin]]
+name = "fib"
+path = "src/fib.rs"
+
+[[bin]]
+name = "scrape_url"
+path = "src/scrape_url.rs"
+
+[[bin]]
+name = "scrape_url_args"
+path = "src/scrape_url_args.rs"
+
+[[bin]]
+name = "scrape_url_with_error_handling"
+path = "src/scrape_url_with_error_handling.rs"
+
+[dependencies]
+reqwest = { version = "0.11", default-features = false, features = ["rustls-tls", "blocking"] }
+html2md = "0.2"
