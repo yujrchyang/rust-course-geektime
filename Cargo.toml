@@ -5,6 +5,7 @@ members = [
     "02_concepts",
     "03_grammar",
     "04_httpie",
+    "05_thumbor",
 ]
 
 resolver = "2"
