@@ -1,0 +1,30 @@
+[package]
+name = "ownership"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "check_copy"
+path = "src/check_copy.rs"
+
+[[bin]]
+name = "reference"
+path = "src/reference.rs"
+
+[[bin]]
+name = "multi_owner"
+path = "src/multi_owner.rs"
+
+[[bin]]
+name = "inner_mut"
+path = "src/inner_mut.rs"
+
+[[bin]]
+name = "lifetime"
+path = "src/lifetime.rs"
+
+[[bin]]
+name = "memory"
+path = "src/memory.rs"
+
+[dependencies]
