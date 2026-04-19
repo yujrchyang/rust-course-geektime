@@ -8,6 +8,7 @@ members = [
     "05_thumbor",
     "06_queryer",
     "07_ownership",
+    "08_type_system",
 ]
 
 resolver = "2"

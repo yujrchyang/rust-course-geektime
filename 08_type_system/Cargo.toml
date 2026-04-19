@@ -1,0 +1,39 @@
+[package]
+name = "type_system"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "type_derivation"
+path = "src/type_derivation.rs"
+
+[[bin]]
+name = "trait_write"
+path = "src/trait_write.rs"
+
+[[bin]]
+name = "trait_parse"
+path = "src/trait_parse.rs"
+
+[[bin]]
+name = "trait_add"
+path = "src/trait_add.rs"
+
+[[bin]]
+name = "trait_dispatch"
+path = "src/trait_dispatch.rs"
+
+[[bin]]
+name = "trait_object_internal"
+path = "src/trait_object_internal.rs"
+
+[[bin]]
+name = "trait_convert"
+path = "src/trait_convert.rs"
+
+[[bin]]
+name = "trait_deref"
+path = "src/trait_deref.rs"
+
+[dependencies]
+regex = "1.12.3"
