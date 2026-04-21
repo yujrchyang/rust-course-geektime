@@ -10,6 +10,7 @@ members = [
     "07_ownership",
     "08_type_system",
     "09_data_struct",
+    "10_kv",
 ]
 
 resolver = "2"
