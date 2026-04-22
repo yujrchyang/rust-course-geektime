@@ -11,6 +11,7 @@ members = [
     "08_type_system",
     "09_data_struct",
     "10_kv",
+    "11_network",
 ]
 
 resolver = "2"
